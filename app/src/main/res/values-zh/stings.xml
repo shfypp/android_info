@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">安卓设备信息查看器</string>
+    <string name="action_settings">设置</string>
+    <string name="title_activity_system">系统信息</string>
+    <string name="title_activity_show_info">信息详情</string>
+    <string name="title_activity_hardware">硬件信息</string>
+    <string name="title_activity_software">软件信息</string>
+    <string name="title_activity_runing">运行时信息</string>
+    <string name="title_activity_fsexplore">文件浏览器</string>
+</resources>
