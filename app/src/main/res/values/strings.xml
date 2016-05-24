@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">AndroidInfo</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_system">SystemActivity</string>
+    <string name="title_activity_show_info">ShowInfoActivity</string>
+    <string name="title_activity_hardware">HardwareActivity</string>
+    <string name="title_activity_software">SoftwareActivity</string>
+    <string name="title_activity_runing">RuningActivity</string>
+    <string name="title_activity_fsexplore">FSExploreActivity</string>
 </resources>

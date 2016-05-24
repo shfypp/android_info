@@ -2,6 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="cn.hophin.shfy.androidinfo">
 
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -17,6 +21,60 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".SystemActivity"
+            android:label="@string/title_activity_system"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cn.hophin.shfy.androidinfo.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ShowInfoActivity"
+            android:label="@string/title_activity_show_info"
+            android:parentActivityName=".SystemActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cn.hophin.shfy.androidinfo.SystemActivity" />
+        </activity>
+        <activity
+            android:name=".HardwareActivity"
+            android:label="@string/title_activity_hardware"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cn.hophin.shfy.androidinfo.MainActivity" />
+        </activity>
+        <activity
+            android:name=".SoftwareActivity"
+            android:label="@string/title_activity_software"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cn.hophin.shfy.androidinfo.MainActivity" />
+        </activity>
+        <activity
+            android:name=".RuningActivity"
+            android:label="@string/title_activity_runing"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cn.hophin.shfy.androidinfo.MainActivity" />
+        </activity>
+        <activity
+            android:name=".FSExploreActivity"
+            android:label="@string/title_activity_fsexplore"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cn.hophin.shfy.androidinfo.MainActivity" />
         </activity>
     </application>
 
